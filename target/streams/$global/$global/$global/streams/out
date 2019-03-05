@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 73592 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 15289 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 92560 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 15636 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 25 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 4389 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 22278 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 60551 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 3219 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 63840 us[0m
+[0m[[0m[0minfo[0m] [0m[0mWriting module entry point for diode-example-fastopt-entrypoint.js[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilding webpack library bundles for diode-example-fastopt in /home/ryne/tmp/diode-example/target/streams/$global/$global/$global/streams/fastOptJS-webpack-libraries[0m
+[0m[[0m[0minfo[0m] [0m[0mWriting scalajs.webpack.config.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mCommand: node /home/ryne/tmp/diode-example/target/scala-2.12/scalajs-bundler/main/node_modules/webpack/bin/webpack --bail --profile --json --config /home/ryne/tmp/diode-example/target/scala-2.12/scalajs-bundler/main/webpack-fastopt.config.js[0m
+[0m[[0m[0minfo[0m] [0m[0mVersion: 4.29.0[0m
+[0m[[0m[0minfo[0m] [0m[0mHash: f70928b96ceb0ab7158c[0m
+[0m[[0m[0minfo[0m] [0m[0mTime: 839ms[0m
+[0m[[0m[0minfo[0m] [0m[0mPath: /home/ryne/tmp/diode-example/target/scala-2.12/scalajs-bundler/main/dist[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt at 2019-03-05T14:27:02.176[0m
+[0m[[0m[0minfo[0m] [0m[0m                         Asset      Size                                Chunks[0m
+[0m[[0m[0minfo[0m] [0m[0m      diode-example-fastopt.js   3822043   [emitted]   [diode-example-fastopt][0m
+[0m[[0m[0minfo[0m] [0m[0m                   favicon.ico      3870   [emitted]                        [][0m
+[0m[[0m[0minfo[0m] [0m[0m                    index.html      1495   [emitted]                        [][0m
+[0m[[0m[0minfo[0m] [0m[0m                 manifest.json       317   [emitted]                        [][0m
+[0m[[0m[0minfo[0m] [0m[0mstatic/media/logo.5d5d9eef.svg      2671   [emitted]                        [][0m

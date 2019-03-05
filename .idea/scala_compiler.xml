@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="diode-example_201" />
+    <profile name="sbt 2" modules="diode-example">
+      <parameters>
+        <parameter value="-P:scalajs:sjsDefinedByDefault" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.8/jars/scalajs-compiler_2.12.8-0.6.26.jar" />
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scalamacros/paradise_2.12.8/jars/paradise_2.12.8-2.1.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="diode-example_sjs0.6_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
+		date="20190305142642"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_sjs0.6_2.12">
+			<revision name="3.0.5" status="release" pubdate="20180129082607" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3584" time="0" location="/home/ryne/.ivy2/cache/org.scalatest/scalatest_sjs0.6_2.12/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_sjs0.6_2.12/3.0.5/scalatest_sjs0.6_2.12-3.0.5.pom"/>
+				<caller organisation="default" name="diode-example_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_sjs0.6_2.12" type="bundle" ext="jar" status="no" details="" size="12386503" time="0" location="/home/ryne/.ivy2/cache/org.scalatest/scalatest_sjs0.6_2.12/bundles/scalatest_sjs0.6_2.12-3.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_sjs0.6_2.12/3.0.5/scalatest_sjs0.6_2.12-3.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_sjs0.6_2.12">
+			<revision name="3.0.5" status="release" pubdate="20180129082525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3271" time="0" location="/home/ryne/.ivy2/cache/org.scalactic/scalactic_sjs0.6_2.12/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_sjs0.6_2.12/3.0.5/scalactic_sjs0.6_2.12-3.0.5.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="3.0.5"/>
+				<artifacts>
+					<artifact name="scalactic_sjs0.6_2.12" type="bundle" ext="jar" status="no" details="" size="1714973" time="0" location="/home/ryne/.ivy2/cache/org.scalactic/scalactic_sjs0.6_2.12/bundles/scalactic_sjs0.6_2.12-3.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_sjs0.6_2.12/3.0.5/scalactic_sjs0.6_2.12-3.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-test-interface_2.12">
+			<revision name="0.6.26" status="release" pubdate="20181127175311" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-test-interface/0.6.26/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="13">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3027" time="0" location="/home/ryne/.ivy2/cache/org.scala-js/scalajs-test-interface_2.12/ivy-0.6.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.26/scalajs-test-interface_2.12-0.6.26.pom"/>
+				<caller organisation="default" name="diode-example_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scalatest" name="scalatest_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.5"/>
+				<artifacts>
+					<artifact name="scalajs-test-interface_2.12" type="jar" ext="jar" status="no" details="" size="397400" time="0" location="/home/ryne/.ivy2/cache/org.scala-js/scalajs-test-interface_2.12/jars/scalajs-test-interface_2.12-0.6.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.26/scalajs-test-interface_2.12-0.6.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.22" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.26"/>
+				<caller organisation="org.scalatest" name="scalatest_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.suzaku" name="diode_sjs0.6_2.12">
+			<revision name="1.1.4" status="release" pubdate="20181018152814" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/suzaku-io/diode" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache 2.0 license" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3371" time="0" location="/home/ryne/.ivy2/cache/io.suzaku/diode_sjs0.6_2.12/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/suzaku/diode_sjs0.6_2.12/1.1.4/diode_sjs0.6_2.12-1.1.4.pom"/>
+				<caller organisation="default" name="diode-example_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="diode_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="448" time="0" location="/home/ryne/.ivy2/cache/io.suzaku/diode_sjs0.6_2.12/jars/diode_sjs0.6_2.12-1.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/suzaku/diode_sjs0.6_2.12/1.1.4/diode_sjs0.6_2.12-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.suzaku" name="diode-data_sjs0.6_2.12">
+			<revision name="1.1.4" status="release" pubdate="20181018153037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/suzaku-io/diode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache 2.0 license" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3236" time="0" location="/home/ryne/.ivy2/cache/io.suzaku/diode-data_sjs0.6_2.12/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/suzaku/diode-data_sjs0.6_2.12/1.1.4/diode-data_sjs0.6_2.12-1.1.4.pom"/>
+				<caller organisation="io.suzaku" name="diode_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.1.4"/>
+				<artifacts>
+					<artifact name="diode-data_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="275881" time="0" location="/home/ryne/.ivy2/cache/io.suzaku/diode-data_sjs0.6_2.12/jars/diode-data_sjs0.6_2.12-1.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/suzaku/diode-data_sjs0.6_2.12/1.1.4/diode-data_sjs0.6_2.12-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.suzaku" name="diode-core_sjs0.6_2.12">
+			<revision name="1.1.4" status="release" pubdate="20181018153005" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/suzaku-io/diode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache 2.0 license" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3237" time="0" location="/home/ryne/.ivy2/cache/io.suzaku/diode-core_sjs0.6_2.12/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/suzaku/diode-core_sjs0.6_2.12/1.1.4/diode-core_sjs0.6_2.12-1.1.4.pom"/>
+				<caller organisation="io.suzaku" name="diode_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.1.4"/>
+				<caller organisation="io.suzaku" name="diode-data_sjs0.6_2.12" conf="compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.1.4"/>
+				<artifacts>
+					<artifact name="diode-core_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="302921" time="0" location="/home/ryne/.ivy2/cache/io.suzaku/diode-core_sjs0.6_2.12/jars/diode-core_sjs0.6_2.12-1.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/suzaku/diode-core_sjs0.6_2.12/1.1.4/diode-core_sjs0.6_2.12-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="me.shadaj" name="slinky-hot_sjs0.6_2.12">
+			<revision name="0.5.2" status="release" pubdate="20190128184450" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/shadaj/slinky" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3086" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-hot_sjs0.6_2.12/ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/me/shadaj/slinky-hot_sjs0.6_2.12/0.5.2/slinky-hot_sjs0.6_2.12-0.5.2.pom"/>
+				<caller organisation="default" name="diode-example_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slinky-hot_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="7377" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-hot_sjs0.6_2.12/jars/slinky-hot_sjs0.6_2.12-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/me/shadaj/slinky-hot_sjs0.6_2.12/0.5.2/slinky-hot_sjs0.6_2.12-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="me.shadaj" name="slinky-web_sjs0.6_2.12">
+			<revision name="0.5.2" status="release" pubdate="20190128184257" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/shadaj/slinky" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3240" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-web_sjs0.6_2.12/ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.5.2/slinky-web_sjs0.6_2.12-0.5.2.pom"/>
+				<caller organisation="default" name="diode-example_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slinky-web_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="10864686" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-web_sjs0.6_2.12/jars/slinky-web_sjs0.6_2.12-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.5.2/slinky-web_sjs0.6_2.12-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12">
+			<revision name="0.9.6" status="release" pubdate="20180520121345" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2941" time="0" location="/home/ryne/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/ivy-0.9.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.6/scalajs-dom_sjs0.6_2.12-0.9.6.pom"/>
+				<caller organisation="me.shadaj" name="slinky-web_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1961781" time="0" location="/home/ryne/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/jars/scalajs-dom_sjs0.6_2.12-0.9.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.6/scalajs-dom_sjs0.6_2.12-0.9.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="me.shadaj" name="slinky-core_sjs0.6_2.12">
+			<revision name="0.5.2" status="release" pubdate="20190128183913" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/shadaj/slinky" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3241" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-core_sjs0.6_2.12/ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/me/shadaj/slinky-core_sjs0.6_2.12/0.5.2/slinky-core_sjs0.6_2.12-0.5.2.pom"/>
+				<caller organisation="me.shadaj" name="slinky-hot_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.5.2"/>
+				<caller organisation="me.shadaj" name="slinky-web_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="slinky-core_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="358001" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-core_sjs0.6_2.12/jars/slinky-core_sjs0.6_2.12-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/me/shadaj/slinky-core_sjs0.6_2.12/0.5.2/slinky-core_sjs0.6_2.12-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="me.shadaj" name="slinky-readwrite_sjs0.6_2.12">
+			<revision name="0.5.2" status="release" pubdate="20190128183836" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/shadaj/slinky" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3248" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-readwrite_sjs0.6_2.12/ivy-0.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/me/shadaj/slinky-readwrite_sjs0.6_2.12/0.5.2/slinky-readwrite_sjs0.6_2.12-0.5.2.pom"/>
+				<caller organisation="me.shadaj" name="slinky-core_sjs0.6_2.12" conf="compile, runtime" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="slinky-readwrite_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="418118" time="0" location="/home/ryne/.ivy2/cache/me.shadaj/slinky-readwrite_sjs0.6_2.12/jars/slinky-readwrite_sjs0.6_2.12-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/me/shadaj/slinky-readwrite_sjs0.6_2.12/0.5.2/slinky-readwrite_sjs0.6_2.12-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.8" status="release" pubdate="20181204051719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3092" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.pom"/>
+				<caller organisation="me.shadaj" name="slinky-readwrite_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.5.2"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="10508278" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101102105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.12.8"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="547860" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.8" status="release" pubdate="20181204051524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2828" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom"/>
+				<caller organisation="me.shadaj" name="slinky-readwrite_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.5.2"/>
+				<caller organisation="org.scalatest" name="scalatest_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.0.5"/>
+				<caller organisation="org.scalactic" name="scalactic_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.0.5"/>
+				<caller organisation="me.shadaj" name="slinky-core_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.5.2"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.12.8"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3645095" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.12">
+			<revision name="0.6.26" status="release" pubdate="20181127174753" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.26/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/home/ryne/.ivy2/cache/org.scala-js/scalajs-library_2.12/ivy-0.6.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.26/scalajs-library_2.12-0.6.26.pom"/>
+				<caller organisation="me.shadaj" name="slinky-readwrite_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="io.suzaku" name="diode_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.1.4"/>
+				<caller organisation="default" name="diode-example_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scalatest" name="scalatest_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.5"/>
+				<caller organisation="org.scalactic" name="scalactic_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.5"/>
+				<caller organisation="me.shadaj" name="slinky-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="me.shadaj" name="slinky-hot_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="io.suzaku" name="diode-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.1.4"/>
+				<caller organisation="me.shadaj" name="slinky-web_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="io.suzaku" name="diode-data_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.1.4"/>
+				<caller organisation="org.scala-js" name="scalajs-test-interface_2.12" conf="default, compile, runtime, master" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.6.26"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="compile, runtime" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.12" type="jar" ext="jar" status="no" details="" size="6514412" time="0" location="/home/ryne/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.26/scalajs-library_2.12-0.6.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.22" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.26"/>
+				<caller organisation="io.suzaku" name="diode_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.1.4"/>
+				<caller organisation="org.scalatest" name="scalatest_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.5"/>
+				<caller organisation="org.scalactic" name="scalactic_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.5"/>
+				<caller organisation="io.suzaku" name="diode-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.1.4"/>
+				<caller organisation="io.suzaku" name="diode-data_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.1.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.23" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="0.6.26"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="compile, runtime" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.25" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.26"/>
+				<caller organisation="me.shadaj" name="slinky-readwrite_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="me.shadaj" name="slinky-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="me.shadaj" name="slinky-hot_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="me.shadaj" name="slinky-web_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.5.2"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="compile, runtime" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204051556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
+				<caller organisation="me.shadaj" name="slinky-readwrite_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.5.2"/>
+				<caller organisation="io.suzaku" name="diode_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.1.4"/>
+				<caller organisation="default" name="diode-example_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.12.8"/>
+				<caller organisation="me.shadaj" name="slinky-hot_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.5.2"/>
+				<caller organisation="io.suzaku" name="diode-core_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.1.4"/>
+				<caller organisation="me.shadaj" name="slinky-web_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.5.2"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.12.8"/>
+				<caller organisation="io.suzaku" name="diode-data_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.1.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.0.6"/>
+				<caller organisation="org.scalatest" name="scalatest_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.0.5"/>
+				<caller organisation="org.scalactic" name="scalactic_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.0.5"/>
+				<caller organisation="me.shadaj" name="slinky-core_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.5.2"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.6.26"/>
+				<caller organisation="org.scala-js" name="scalajs-test-interface_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.6.26"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.9.6"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="/home/ryne/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

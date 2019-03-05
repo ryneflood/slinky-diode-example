@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: me.shadaj:slinky-web_sjs0.6_2.12:0.5.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/me.shadaj/slinky-web_sjs0.6_2.12/jars/slinky-web_sjs0.6_2.12-0.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/me.shadaj/slinky-web_sjs0.6_2.12/srcs/slinky-web_sjs0.6_2.12-0.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
