@@ -4,7 +4,6 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.{JSExportTopLevel, JSImport}
 import scala.scalajs.LinkingInfo
 
-import slinky.core._
 import slinky.web.ReactDOM
 import slinky.hot
 
@@ -15,7 +14,7 @@ import org.scalajs.dom
 object IndexCSS extends js.Object
 
 object Main {
-  val css = IndexCSS
+  val css: IndexCSS.type = IndexCSS
 
   @JSExportTopLevel("main")
   def main(): Unit = {

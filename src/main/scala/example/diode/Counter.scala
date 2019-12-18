@@ -1,13 +1,19 @@
 package example.diode
 
-import slinky.web.html._
 import example.diode.hooks.Diode.useDiode
 import example.diode.store.AppCircuit
 import example.diode.store.CounterStore.{Decrement, Increment, Reset}
-import slinky.core.facade.Fragment
 
-object Counter {
-  val component = FunctionalComponent[Unit] { _ =>
+import slinky.core.FunctionalComponent
+import slinky.core.annotations.react
+import slinky.core.facade.Fragment
+import slinky.web.html._
+
+@react object Counter {
+
+  type Props = Unit
+
+  val component: FunctionalComponent[Unit] = FunctionalComponent[Unit] { _ =>
     val (counterState, dispatch) = useDiode(App.diodeContext, AppCircuit.zoomTo(_.counter))
 
     div(
@@ -20,5 +26,4 @@ object Counter {
     )
   }
 
-  def apply() = component()
 }

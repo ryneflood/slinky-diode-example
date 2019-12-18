@@ -12,7 +12,7 @@ object CounterStore {
   case object Reset extends Action
 
   class CounterHandler extends ActionHandler(AppCircuit.zoomTo(_.counter)) {
-    override protected def handle = {
+    override protected def handle: PartialFunction[Any, ActionResult[AppModel]] = {
       case Increment => updated(value.copy(count = value.count + 1))
       case Decrement => updated(value.copy(count = value.count - 1))
       case Reset => updated(initialState)

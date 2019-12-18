@@ -1,7 +1,8 @@
 package example.diode.hooks
 
-import example.diode.hooks.Hooks._
 import diode.{Circuit, Dispatcher, ModelR}
+
+import slinky.core.facade.Hooks._
 import slinky.core.facade.ReactContext
 
 object Diode {
