@@ -17,7 +17,7 @@ npmDevDependencies in Compile += "webpack-merge" -> "4.2.1"
 
 libraryDependencies += "me.shadaj" %%% "slinky-web" % "0.6.3"
 libraryDependencies += "me.shadaj" %%% "slinky-hot" % "0.6.3"
-libraryDependencies += "io.suzaku" %%% "diode" % "1.1.5"
+libraryDependencies += "io.suzaku" %%% "diode" % "1.1.6"
 
 libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.5" % Test
 
